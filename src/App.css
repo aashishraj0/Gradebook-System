@@ -1,38 +1,275 @@
-.App {
+/*Header start*/
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 60px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  }
+  
+
+  .header-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  }
+  
+  .header-info {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .header-item {
+  margin-right: 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #666666;
+  }
+  
+  .header-heading {
+  font-weight: bold;
+  margin-right: 4px;
+  }
+  .header-heading-main{
+    font-weight: bolder;
+    font-size: 34px;
+  }
+
+
+
+
+/*header end*/
+
+
+.popup p {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.all-btn,
+.pass-btn,
+.fail-btn{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-weight: bold;
+}
+
+.all-btn
+ {
+  background-color: #007bff;
+}
+.pass-btn {
+  background-color: rgb(0, 197, 0);
+}
+
+.fail-btn {
+  background-color: red;
+}
+.all-btn:hover{
+  background-color: #0069d9;
+}
+.pass-btn:hover {
+  background-color: rgb(0, 151, 0);
+}
+
+.fail-btn:hover {
+  background-color: rgb(207, 0, 0);
+}
+
+
+
+
+
+
+.search {
+  float: right;
+}
+
+
+input[type="text"] {
+  
+  flex: 1;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 250px; 
+  height: 25px; 
+  font-size: 16px; 
+  border: 2px solid #0069d9; 
+  border-radius: 5px; 
+  padding: 5px; 
+}
+
+.search:focus {
+  outline: none;
+  border-color: #0069d9;
+}
+.close-btn{
+  margin: 2px;
+  padding: 10px 15px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  font-weight: bold;
+
+}
+.close-btn:hover{
+  background-color: #c60000;
+}
+
+.graph-btn-show {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.graph-btn-show:hover{
+  background-color: rgb(0, 122, 0);
+}
+.graph-btn-hide{
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.graph-btn-hide:hover{
+  background-color: rgb(209, 0, 0);
+}
+
+
+footer {
+  background-color: #363636;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer a {
+  color: #fff;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer a:hover {
+  color: #00acee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer p {
+  font-style: italic;
+  font-size: 15px;
+  margin: 0;
+}
+
+footer time {
+  font-style: italic;
+}
+
+footer svg {
+  height: 30px;
+  width: 30px;
+}
+
+.graph-toggle-btn {
+  margin: 10px;
+  padding: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0088FE;
   color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.graph-toggle-btn:hover {
+  background-color: #0066CC;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.graph-toggle-btn:active {
+  background-color: #0044AA;
+}
+
+.graph-toggle-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #0088FE;
+}
+
+.selected-row {
+  background-color: yellow !important;
 }

@@ -1,0 +1,21 @@
+import './App.css'
+import React from "react";
+import Header from "./components/header";
+import StudentTable from "./components/Table";
+import PieChartGraph from './components/PieChart';
+import Footer from './components/footer';
+
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <StudentTable/>
+      <PieChartGraph/>
+      <Footer></Footer>
+      
+    </div>
+  );
+}
+
+export default App;

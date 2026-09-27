@@ -1,0 +1,182 @@
+[
+      {
+        "id": 1,
+        "name": "Maneek Maharjan",
+        "ticket_number": "T001",
+        "ticket_topic": "Data Structures",
+        "exam_grade": 8.2,
+        "rating_grade": 6.7,
+        "comments": "Great work on the exam!"
+      },
+      {
+        "id": 2,
+        "name": "Aniket Gupta",
+        "ticket_number": "T002",
+        "ticket_topic": "Abnormal Psychology",
+        "exam_grade": 2.12,
+        "rating_grade": 4.73,
+        "comments": "Good job, but could use some improvement."
+      },
+      {
+        "id": 3,
+        "name": "Niraj Sarraf",
+        "ticket_number": "T003",
+        "ticket_topic": "Artificial Intelligence",
+        "exam_grade": 3.67,
+        "rating_grade": 1.22,
+        "comments": "Excellent work, keep it up!"
+      },
+      {
+        "id": 4,
+        "name": "Aashish Raj Shrestha",
+        "ticket_number": "T004",
+        "ticket_topic": "Marketing Strategies",
+        "exam_grade": 8.11,
+        "rating_grade": 6.77,
+        "comments": "Well done on the exam!"
+      },
+      {
+        "id": 5,
+        "name": "Saroj Lamsal",
+        "ticket_number": "T005",
+        "ticket_topic": "Economics",
+        "exam_grade": 2.21,
+        "rating_grade": 1.92,
+        "comments": "Good effort, but could use some more practice."
+      },
+      {
+        "id": 6,
+        "name": "Sushil Kunwar",
+        "ticket_number": "T006",
+        "ticket_topic": "Graphic Design",
+        "exam_grade": 8.23,
+        "rating_grade": 7.02,
+        "comments": "Impressive work on the exam!"
+      },
+      {
+        "id": 7,
+        "name": "Bikash Chhetri",
+        "ticket_number": "T007",
+        "ticket_topic": "Web Development",
+        "exam_grade": 1.67,
+        "rating_grade": 1.78,
+        "comments": "Fantastic work, keep it up!"
+      },
+      {
+        "id": 8,
+        "name": "Kiran Poudel",
+        "ticket_number": "T008",
+        "ticket_topic": "Finance",
+        "exam_grade": 1.23,
+        "rating_grade": 2.13,
+        "comments": "Good effort, but could use some improvement."
+      },
+      {
+        "id": 9,
+        "name": "Nirdesh Regmi",
+        "ticket_number": "T009",
+        "ticket_topic": "Computer Networks",
+        "exam_grade": 6.56,
+        "rating_grade": 4.21,
+        "comments": "Some improvement needed, keep up the hard work!"
+      },
+      {
+        "id": 10,
+        "name": "Bishal KC",
+        "ticket_number": "T010",
+        "ticket_topic": "Mobile App Development",
+        "exam_grade": 7.89,
+        "rating_grade": 8.28,
+        "comments": "Excellent work, keep it up!"
+      },
+      {
+        "id": 11,
+        "name": "Pramod Poudel",
+        "ticket_number": "T011",
+        "ticket_topic": "Criminal Law",
+        "exam_grade": 4.01,
+        "rating_grade": 3.87,
+        "comments": "Needs improvement, keep working hard."
+      },
+      {
+        "id": 12,
+        "name": "Sahil Gurung",
+        "ticket_number": "T012",
+        "ticket_topic": "Database Systems",
+        "exam_grade": 8,
+        "rating_grade": 9.45,
+        "comments": "Impressive work on the exam!"
+      },
+      {
+        "id": 13,
+        "name": "Anil Chaudhary",
+        "ticket_number": "T013",
+        "ticket_topic": "Data Mining",
+        "exam_grade": 9.12,
+        "rating_grade": 10.56,
+        "comments": "Fantastic work, keep it up!"
+      },
+      {
+        "id": 14,
+        "name": "Mahesh KC",
+        "ticket_number": "T014",
+        "ticket_topic": "Computer Graphics",
+        "exam_grade": 5.1,
+        "rating_grade": 2.1,
+        "comments": "Some improvement needed, keep up the hard work!"
+      },
+      {
+        "id": 15,
+        "name": "Gori Chaudhary",
+        "ticket_number": "T015",
+        "ticket_topic": "Software Engineering",
+        "exam_grade": 7.81,
+        "rating_grade": 8.92,
+        "comments": "Well done, keep up the good work!"
+      },
+      {
+        "id": 16,
+        "name": "Sumit Singh",
+        "ticket_number": "T016",
+        "ticket_topic": "Operating Systems",
+        "exam_grade": 5.34,
+        "rating_grade": 3.11,
+        "comments": "Some improvement needed, keep working hard."
+      },
+      {
+        "id": 17,
+        "name": "Pothangi Mahesh",
+        "ticket_number": "T017",
+        "ticket_topic": "Human-Computer Interaction",
+        "exam_grade": 2.2,
+        "rating_grade": 6,
+        "comments": "Great work on the exam!"
+      },
+      {
+        "id": 18,
+        "name": "Vipin Gorapathi",
+        "ticket_number": "T018",
+        "ticket_topic": "Computer Architecture",
+        "exam_grade": 5.6,
+        "rating_grade": 4.04,
+        "comments": "Some improvement needed, keep working hard."
+      },
+      {
+        "id": 19,
+        "name": "Sabita Kumari",
+        "ticket_number": "T019",
+        "ticket_topic": "Computer Security",
+        "exam_grade": 2.3,
+        "rating_grade": 2.1,
+        "comments": "Excellent work, keep it up!"
+      },
+      {
+        "id": 20,
+        "name": "Lucky Gupta",
+        "ticket_number": "T020",
+        "ticket_topic": "Computer Vision",
+        "exam_grade": 7.61,
+        "rating_grade": 5.32,
+        "comments": "Good effort, but could use some improvement."
+      }
+    ]  
